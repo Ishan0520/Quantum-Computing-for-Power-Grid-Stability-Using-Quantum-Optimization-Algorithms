@@ -20,33 +20,42 @@ Key Performance Indicators (KPIs):
 
 Load & Demand Management Metrics: 
 
-#Load Factor (%) = (Average Load / Peak Load) × 100
-#Peak Load Demand (MW/GW) – Measures maximum electricity demand.
-#Daily Load Variability Index – Standard deviation of hourly load demand.
-#Demand Response Efficiency (%) – Measures load shifting effectiveness.
+Load Factor (%) = (Average Load / Peak Load) × 100
+
+Peak Load Demand (MW/GW) – Measures maximum electricity demand.
+
+Daily Load Variability Index – Standard deviation of hourly load demand.
+
+Demand Response Efficiency (%) – Measures load shifting effectiveness.
 
 Voltage Stability Metrics: 
 
 Voltage Deviation (V) = |V_actual - V_nominal|
+
 Reactive Power Reserve (%) = (Available Reactive Power / Total Reactive Power Demand) × 100
 
 Frequency Stability Metrics:
 
 Grid Frequency Deviation (Hz) = |F_actual - F_nominal|
+
 Rate of Change of Frequency (RoCoF) (Hz/s) = ΔF / Δt
 
 Renewable Energy Integration Metrics:
 
 Renewable Energy Penetration (%) = (Renewable Energy Output / Total Generation) × 100
+
 Capacity Factor of Renewables (%) = (Actual Output / Maximum Possible Output) × 100
 
 Transmission & Distribution System Metrics:
 
 Transformer Utilization Rate (%) = (Actual Load on Transformer / Rated Transformer Capacity) × 100
+
 Line Losses (%) = (Power Input - Power Output) / Power Input × 100
 
 Reliability & Resilience Metrics:
 
 System Average Interruption Frequency Index (SAIFI) = Total Customer Interruptions / Total Customers Served
+
 System Average Interruption Duration Index (SAIDI) = Total Duration of Interruptions / Total Customers Served
+
 Energy Not Supplied (ENS) (MWh/year) – Measures economic loss due to outages.
