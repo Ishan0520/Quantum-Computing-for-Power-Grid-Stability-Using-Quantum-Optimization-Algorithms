@@ -20,10 +20,10 @@ Key Performance Indicators (KPIs):
 
 Load & Demand Management Metrics: 
 
-Load Factor (%) = (Average Load / Peak Load) × 100
-Peak Load Demand (MW/GW) – Measures maximum electricity demand.
-Daily Load Variability Index – Standard deviation of hourly load demand.
-Demand Response Efficiency (%) – Measures load shifting effectiveness.
+#Load Factor (%) = (Average Load / Peak Load) × 100
+#Peak Load Demand (MW/GW) – Measures maximum electricity demand.
+#Daily Load Variability Index – Standard deviation of hourly load demand.
+#Demand Response Efficiency (%) – Measures load shifting effectiveness.
 
 Voltage Stability Metrics: 
 
