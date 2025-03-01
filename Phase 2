@@ -1,0 +1,46 @@
+Phase 2: In this I have done Exploratory Data Analysis (EDA) & Data Cleaning
+Sample Code:
+
+Python Code to Load & Inspect Data:
+
+import pandas as pd
+
+# Load dataset (Replace with your actual dataset file)
+df = pd.read_csv("power_grid_PJM.csv", parse_dates=["period"])  # Ensure 'period' is datetime
+
+# Display basic info
+print(df.info())
+print(df.describe())
+
+# Check for missing values
+print(df.isnull().sum())
+
+# Preview dataset
+print(df.head())
+
+Python Code to Handle Missing Values:
+# Fill missing values using forward-fill method
+df.fillna(method='ffill', inplace=True)
+
+# Check if any missing values remain
+print(df.isnull().sum())
+
+Python Code for Time-Series Plot:
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Plot Load Demand Over Time
+plt.figure(figsize=(12,5))
+sns.lineplot(data=df_cleaned, x="period", y="value", label="Load Demand")
+plt.xlabel("Time")
+plt.ylabel("Load Demand (MW)")
+plt.title("Power Load Demand Over Time")
+plt.legend()
+plt.show()
+
+Python Code for Correlation Heatmap:
+plt.figure(figsize=(8,6))
+sns.heatmap(df_cleaned.corr(), annot=True, cmap="coolwarm")
+plt.title("Feature Correlation Heatmap")
+plt.show()
+
